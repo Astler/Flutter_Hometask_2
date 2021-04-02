@@ -61,10 +61,10 @@ class ContactItem implements ListItem {
                 ? Icon(Icons.star, color: Colors.blue[400])
                 : null, //Icon(Icons.star_border, color: Colors.blue),
           ),
-        ), // icon-1
+        ),
         ClipOval(
           child: Image.asset(
-            data.icon_url,
+            data.icon_name,
             fit: BoxFit.cover,
             width: 40,
             height: 40,

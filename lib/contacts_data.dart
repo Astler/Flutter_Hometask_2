@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'dart:math';
 
 class ContactData {
@@ -6,10 +5,10 @@ class ContactData {
   final String name;
   final String surname;
   final String company;
-  final String icon_url;
+  final String icon_name;
   bool isFavorite;
 
-  ContactData(this.id, this.name, this.surname, this.company, this.icon_url,
+  ContactData(this.id, this.name, this.surname, this.company, this.icon_name,
       this.isFavorite);
 }
 
